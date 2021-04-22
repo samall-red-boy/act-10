@@ -1,5 +1,6 @@
 *{
-    background-image: url(a);
+    box-sizing: border-box;
+   
 }
 
 .wrapper{
@@ -13,66 +14,91 @@ background-color: #ffffff;
 
 }
 
+figure{
+    
+    border: 1px, gray;
+}
+
 header{
-    width:100%;	/* usamos todo lo largo */
-    height:auto;	/* la altura se acopla al contenido */
-    background-color: #333;	/* color del header */
-    padding:1em;	/* espacio dentro de nuestra caja de 1em */
+    width:100%;	
+    height:auto;	
+    background-color: rgb(126, 126, 126);
+    padding:1em;
+    	
 }
 nav{
-   /* usamos una familia de fuentes */
-    font-weight: bold; /* le damos peso bold */
-    font-size: 0.8em;	/* definimos el tamaño a 0.8em */
+   
+    font-weight: bold; 
+    font-size: 0.8em;	
  }
- nav ul {	/* estilos para unordered list */
-    margin: 0px;	/* el  < ul> dentro de  < nav> no tiene margen */
-    padding: 5px 0px 5px 30px;	/* padding: top right bottom left; */
+ nav ul {	
+    margin: 0px;	
+    padding: 5px 0px 5px 30px;
  }
  nav li {
-    display: inline;	 /* los elementos  < li> se muestran en una línea */
-    margin-right: 40px;	/* margen de los elementos de 40px a la derecha */
+    display: inline;	 
+    margin-right: 40px;	
  }
- nav li a {	/* estilos de los elementos listados en forma de enlace */
-    color: #ffffff;	/* color de la fuente */
-    text-decoration: none;	/* quitamos el subrayado para mejor presentación */
+ nav li a {	
+    color: #ffffff;	
+    text-decoration: none;
  }
- nav li a:hover, nav li a.current { /* aplicamos esta regla para el :hover y para la clase current */
-    color: #FF0;	/* cambiamos el color de la fuente a amarillo */
-    text-decoration: underline;	/* colocamos de vuelta el subrayado para indicar al elemento */
+ nav li a:hover, nav li a.current { 
+    color: #FF0;	
+    text-decoration: underline;	
  }
-
+h1{
+    color: #ffffff;
+}
 h3{
     color: #c63b11;
     font-family: sans-serif;
 }
 
+section {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #ffffff;
+    
+}
 
+figure{
+    float:left;
+    width: 70%;
+    padding: 30px;
+    border: 1px solid rgb(180, 180, 180);
+}
  article {
 
-    margin: 1em;
-    padding: 1em;
-    border: 1px solid #ccc;
-    width: 40%;
-    
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #ffffff;
+    text-align: left;
+  
    }
 
-   
-   
-   article h1, h3 {
+
+
+article h1, h3 {
         font-weight: bold;}
 
    article h1 {
     font-size: 2em;
-    margin-bottom: 0.5em;
+  
    }
    article h3 {	
     font-size: 1em;
-    margin-bottom: 0.5em;
+  
    }
    article p {
     display: inline;
     width: 75%;
    }
+
+
+
 
    ul.popular-recipes{
 
@@ -84,12 +110,14 @@ h3{
    float: left;
    
    }
+
    a{
     color: #c63b11;
     text-decoration: none;
     font-size: 20;
     
    }
+   
    p{
        color: black;
    }
@@ -101,15 +129,10 @@ h3{
 
 
    footer{
-    width:100%;	/* usamos todo lo largo */
-    height:auto;	/* la altura se acopla al contenido */
+    width: 70%;
     background-color: #333;	/* color del header */
-    padding:1em;	/* espacio dentro de nuestra caja de 1em */
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    padding: 20px;
     color: #ffffff;
-    font-family: sans-serif;
 
    }
    
